@@ -1,6 +1,6 @@
-# ucb-data
+# ucb-data-public
 
-A repository storing my data produced in UC Berkeley.
+A repository storing my public data produced in UC Berkeley.
 
 [My Resume](Resume/Resume.pdf)
 
