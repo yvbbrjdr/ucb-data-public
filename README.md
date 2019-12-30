@@ -12,3 +12,4 @@ A repository storing my public data produced in UC Berkeley.
 - [Fall 2018](Fall%202018/Timetable)
 - [Spring 2019](Spring%202019/Timetable)
 - [Fall 2019](Fall%202019/Timetable)
+- [Spring 2020](Spring%202020/Timetable)
