@@ -73,6 +73,8 @@ I'm interested in the underlying structures and low level applications of comput
 - **System Software Engineer** at *NVIDIA*  
     Jun 2020 - Present  
     Santa Clara, CA
+    - Developed firmware for the RISC-V microcontrollers inside the GPU.
+    - Maintained the kernel-mode driver for the GPU.
 - **Software Engineering Intern** at *Kelda Inc*  
     Jun 2019 - Aug 2019  
     Berkeley, CA
@@ -118,7 +120,7 @@ I'm interested in the underlying structures and low level applications of comput
     A proxy server and client that aims at bypassing the Great Firewall of China. It can disguise itself as an HTTPS server to avoid the active probe of the Great Firewall. The server performs a TLS handshake with whatever client that connects to it and, depending on whether the client sends a correct password, acts like a proxy server or an HTTPS server.
     - A fast and lightweight obfs web proxy aiming at penetrating DPI (Deep Packet Inspection) firewalls.
     - Features anti active and passive protocol detection.
-    - Received **12k+ stars** on GitHub, has thousands of users, and gained its entrance into major Linux distributions, such as Debian and Arch Linux.
+    - Received **15k+ stars** on GitHub, has thousands of users, and gained its entrance into major Linux distributions, such as Debian and Arch Linux.
 - **Relativistic Ray Tracer**: [https://yvb.moe/relativistic-ray-tracer/](https://yvb.moe/relativistic-ray-tracer/)  
     Apr 2019 - May 2019  
     C++  
