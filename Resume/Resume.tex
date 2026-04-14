@@ -10,7 +10,7 @@
 
 \section{About}
 
-I'm interested in the underlying structures and low level applications of computing machines, particularly Operating Systems, Instruction Set Architectures, Integrated Circuits, Networking, and Computer Security. I'm also able to develop high-quality user applications, be it native apps or websites.
+I'm interested in the underlying structure of computing systems, from OSes, ISAs, ICs, networking, to security, and how they interact from hardware up to distributed software stacks. I've been working on large-scale AI systems to make training and inference efficient and reliable. I also spend time pondering true machine intelligence and how such systems might be implemented.
 \sectionsep
 
 \section{Personal Info}
@@ -54,18 +54,12 @@ I'm interested in the underlying structures and low level applications of comput
 \vspace{\topsep}
 
 \begin{tightemize}
-\item Linux
-\item Docker
-\item Kubernetes
-\item C/C++/Golang
-\item Ada/SPARK
-\item Java/Python/TypeScript
-\item SQL
-\item CI/CD
-\item Release Engineering
-\item Complicated System Design
-\item Network Protocol Design
-\item Computer Graphics and Parallelization
+\item Large-scale AI systems (training, inference)
+\item GPU systems and performance optimization (MFU, kernels)
+\item Numerics (MXFP8/NVFP4, quantization, stochastic rounding)
+\item Systems programming (C/C++/Go/Python)
+\item ML systems debugging and cross-stack diagnosis
+\item Linux and low-level debugging
 \end{tightemize}
 
 \end{minipage} 
@@ -82,27 +76,39 @@ I'm interested in the underlying structures and low level applications of comput
 
 \section{Experience}
 
+\runsubsection{Member of Technical Staff}
+\descript{| Microsoft AI}
+\location{Sep 2025 - Present | Mountain View, CA}
+\vspace{\topsep}
+\begin{tightemize}
+\item Improved MFU and training stability by optimizing numerics across pretraining, post-training, and inference pipelines for large-scale foundation models.
+\item Integrated MXFP8 across training and post-training stacks, enabling low-precision training with minimal quality loss.
+\item Developed stochastic rounding methods for low-precision training, improving convergence under aggressive quantization.
+\item Aligned training and SGLang inference numerics, reducing mismatch and improving post-training and serving consistency.
+\end{tightemize}
+\sectionsep
+
 \runsubsection{Senior System Software Engineer}
 \descript{| NVIDIA Corporation}
-\location{Jun 2020 - Present | Santa Clara, CA}
+\location{Jun 2020 - Sep 2025 | Santa Clara, CA}
 \vspace{\topsep}
 \begin{tightemize}
 \item Leading core security initiatives across advanced GPU, CPU, DPU, and NIC architectures.
 \item Resolving critical system-level issues across organizational boundaries and global time zones.
-\item Analyzing low-level hardware and assembly traces; mentoring peers in advanced debugging methodologies.
+\item Analyzing low-level hardware and assembly traces.
 \item Designing and architecting next-generation security and power-efficiency features for upcoming chip platforms.
 \end{tightemize}
 \sectionsep
 
-\runsubsection{Software Engineering Intern}
-\descript{| Kelda Inc}
-\location{Jun 2019 - Aug 2019 | Berkeley, CA}
-\begin{tightemize}
-\item Built a scalable application in Golang that makes development in Kubernetes clusters easier for microservice developers (30k+ lines of code).
-\item Designed and engineered a feature that makes it easy to live update Docker images in the cluster.
-\item Created a framework that automatically provisions and destroys Kubernetes clusters on Google Compute Engine for the integration tests of the product.
-\end{tightemize}
-\sectionsep
+% \runsubsection{Software Engineering Intern}
+% \descript{| Kelda Inc}
+% \location{Jun 2019 - Aug 2019 | Berkeley, CA}
+% \begin{tightemize}
+% \item Built a scalable application in Golang that makes development in Kubernetes clusters easier for microservice developers (30k+ lines of code).
+% \item Designed and engineered a feature that makes it easy to live update Docker images in the cluster.
+% \item Created a framework that automatically provisions and destroys Kubernetes clusters on Google Compute Engine for the integration tests of the product.
+% \end{tightemize}
+% \sectionsep
 
 \section{Selected Projects}
 
